@@ -1,0 +1,79 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    background: url(/img/bananas.webp);
+}
+
+.pregunta {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.respuesta {
+    margin-bottom: 5px;
+    padding: 10px 20px;
+    background-color: #f5e050;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    color: rgb(131, 131, 131);
+    border-radius: 30px;
+}
+
+.respuesta.seleccionado {
+    background-color: #007bff;
+    color: white;
+}
+
+.puntuacion {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.tiempo {
+    font-weight: bold;
+    color: red;
+    margin-bottom: 10px;
+}
+
+.boton {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#resultado {
+    display: none;
+}
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    
+}
+footer>button>a{
+    text-decoration: none;
+}
+footer>button{
+
+    margin-bottom: 5px;
+    padding: 10px 20px;
+    background-color: #f5e050;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    color: rgb(131, 131, 131); 
+    border-radius: 30px;
+
+}
+.respuesta:hover{
+background-color:rgb(255, 111, 0) ;
+color: white;
+}
+footer>button:hover{
+background-color:rgb(255, 111, 0) ;
+color: white;
+}
